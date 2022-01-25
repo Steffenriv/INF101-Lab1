@@ -36,7 +36,7 @@ public class RockPaperScissors {
         while (true) {
 
             System.out.println("Let's play round " + rounds);
-            String playerChoice = readInput("Your choice (rock/paper/scissors)?");
+            String playerChoice = readInput("Your choice (Rock/Paper/Scissors)?");
 
             int chosenInteger = chooseRandom(rpsChoices.size());
             String computerChoice = rpsChoices.get(chosenInteger);
